@@ -1,0 +1,149 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 150px;
+    width: 100%;
+    background-color: rgb(0, 115, 74); color: rgb(255, 255, 255);
+}
+.row1{
+   
+    height: 30px;
+    width: 100%;
+}
+.row2{
+    
+    height: 30px;
+    width: 100%;
+    justify-content: end;
+    display: flex;
+    align-items: center;
+    padding: 18px;
+    box-sizing: border-box;
+    justify-content: space-evenly;
+    background-color: black;
+}
+.row3{
+    position: sticky;
+    top: 0;
+    height: 75px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    color: black;
+}
+.slider img{
+    height: 530px;
+}
+.colfirst{
+    display: flex;
+}
+.delivery{
+    margin:5px 10px;
+}
+.icon:hover{
+    color: yellow;
+    cursor: pointer;
+}
+.manu7{
+    color:white;
+    background-color: black;
+    max-height: 50px;
+    width:15%;
+    padding: 7px 30px;
+    border-radius: 30px;
+}
+.row3 div:hover{
+    cursor: pointer;
+}
+.slider:hover{
+    cursor: pointer;
+}
+
+.category{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    padding: 0px 20px;
+}
+.round{
+    height: 160px;
+    width: 160px;
+    background-color: white;
+    border-radius: 50%;
+
+}
+.big{
+    margin-top: 60px;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.bigcard{
+    width: 45%;
+    height: 400px;
+}
+.bigcard:hover{
+    cursor: pointer;
+}
+.smallcard{
+    height: 280px;
+    width: 100%;
+    display: flex;
+    padding: 0px 30px;
+    justify-content: space-evenly;
+}
+.smcard{
+    height: 280px;
+    width: 30%;  
+}
+.smcard:hover{
+    cursor: pointer;
+}
+.play{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    background-color: #171717;
+}
+.play1, .play2, .play3{
+    max-width: 36%;
+    height: 350px;
+}
+.play1{
+    padding: 50px;
+}
+.play2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.col3{
+    display: flex;
+    justify-content: space-evenly;
+}
+.video{
+    height: 450px;
+    width: 100%;
+    margin:0px 50px ;
+    display: flex;
+}
+.ved1{
+    width: 70%;
+    height: 100%; 
+}
+.ved2{
+    width: 30%;
+    height: 100%;
+    background-color: aqua;
+}
